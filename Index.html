@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blooger</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+    
+    <!-- BOOTSTRAP CDN -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+     
+          <!-- Custom Style   -->
+     <link rel="stylesheet" href="./css/Style.css">
+
+    <!--  -->
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">POETRY</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Read Poem</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">About-us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Carousels Title ---------------------->
+        <section>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="assets/img/poetry1.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="assets/img/poets.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="assets/img/poems.png" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/img/poetry-we-admire_place.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="assets/img/poetry-we-admire_teachers.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="assets/img/africa.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="assets/img/marabout.png" style="width:100%">
+                </div>
+                
+            
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+                <span class="dot" onclick="currentSlide(7)"></span> 
+                </div>
+        </section>
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/img/sadpoetry1.jpg" width="360" height="220" alt="post-1">
+                            <div class="blog-title">
+                                <h3>The Flames in our Eyes</h3>
+                                <button class="btn btn-blog">by: Dibu</button>
+                                <!-- <span>2 minutes</span> -->
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/img/lonlibearpoetry1.jpeg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>The Mirror of the heart</h3>
+                                <button class="btn btn-blog">by: Iwinlade</button>
+                                <!-- <span>2 minutes</span> -->
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./assets/img/smpoetry2.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>The Eves at Night</h3>
+                                <button class="btn btn-blog">by: Nyle Gay</button>
+                                <!-- <span>2 minutes</span> -->
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/img/smpoetry3.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>The Dance of in our mind</h3>
+                                <button class="btn btn-blog">by: King Solomon</button>
+                                <!-- <span>2 minutes</span> -->
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- THIS IS WHERE WE CALL A JSON THE DATABASE CONTENT WILL SHOW -->
+                        <!-- <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                                <img src="./assets/img/smpoetry3.jpg" alt="post-1">
+                                <div class="blog-title">
+                                    <h3>The Dance of in our mind</h3>
+                                    <button class="btn btn-blog">by: King Solomon</button>
+                                     <span>2 minutes</span>
+                                </div>
+                        </div> -->
+                        <!-- ========================================================================== -->
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+        <br>
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/img/writings.png" class="img" alt="poet1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Tunechy</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 13, 2021</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Writing a Poem</a>
+                            <p>Poetry is a type of literature based on the interplay of words and rhythm. It often employs rhyme and meter (a set of rules governing the number and arrangements of syllables in each line). In poetry, words are strung togther to form sounds, images,  and ideas that might be too complex or absract to describe directly.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/img/poetry4.jpg" class="img" alt="poet4">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Albarka</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 13, 2021</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Understanding Poetry</a>
+                            <p>To understand poetry, you must consider the literal and figurative meanings in the poem, and determine how these two meanings interact and intersect. You can understand a poem by considering the subject and form of the poem as well as the style and the context.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/img/worldpoetimg.jpg" class="img" alt="pen">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Adams</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 13, 2021</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">World Poetry Day</a>
+                            <p>World Poetry Day is an occasion to honour poets, revive oral traditions of poetry recitals, promote the reading, writing and teaching of poetry, foster the convergence between poetry and other arts such as theatre, dance, music and painting, and raise the visibility of poetry in the media.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div> -->
+                </div>
+                <aside class="sidebar">
+                    <div class="popular-post">
+                        <h2 style="text-align: center">Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/img/deerimg.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 13,
+                                        2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Ode to the deer is wriiten by Claudia krizay</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/img/poetoutloudimg.png" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 13,
+                                        2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Students should be inspired to write down their ideas</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/img/bgpoetry1.jpg" class="img" alt="poet1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 13,
+                                        2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Boats and the sea</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/img/poetryimg2.jpg" class="img" alt="poet2">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 13,
+                                        2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The poet is the priest of invivsible.</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/img/poetry5.jpg" class="img" alt="poet5">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 13,
+                                        2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Poems frequently rely on their effect on imagery, word association, and the musical qualities of the language.</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/img/poetry3.jfif" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 13,
+                                        2021</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The pen is the tongue of the mind</a>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                            <div  data-aos="zoom-in" data-aos-delay="200">
+                                    <div class="quote-wrapper">
+                                            <hr style="padding:5px">
+                                             <h2 class="display-4">Quotes Of The Day</h2>
+                                             <small id="quote-tags" ></small>
+                                            <blockquote id="quote-text"></blockquote>
+                                               <cite id="quote-author"></cite>
+                                               <button type="button" id="gen-quote-btn">Get New Quotes</button>
+                                            <hr style="padding:3px">
+                                            
+                                    </div>
+        
+                            </div>
+                    </div> 
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p class="colorw">We are poetry driven and we would like to welcome you to our Poetry world, where we can share, read and even download poems all forms of poetry.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p class="colorw">Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./assets/img/speakmic.jpg" alt="microphone">
+                    <img src="./assets/img/writerbird.jpg" alt="bird and typewriter">
+                    <img src="./assets/img/featherbok.jpg" alt="feather pen">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/img/girlbooks.png" alt="a girl">
+                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
+                    <img src="./assets/img/num12.jpg" alt="a bridge">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p class="colorw">Let us be Social</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-white">
+                Copyright ©2021 All rights reserved | made by
+                <a href="#" target="_black">Adlers Team</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
